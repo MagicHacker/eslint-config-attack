@@ -10,9 +10,17 @@
     "type": "git",
     "url": "git+https://github.com/MagicHacker/eslint-config-NG.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "eslint",
+    "eslintrc",
+    "eslintconfig",
+    "config",
+    "javascript",
+    "styleguide",
+    "vue"
+  ],
+  "author": "magichacker <zxmagichacker@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/MagicHacker/eslint-config-NG/issues"
   },
