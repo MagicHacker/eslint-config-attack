@@ -21,7 +21,7 @@ module.exports = {
         'no-class-assign': 'error',
         // 禁止在可能与比较操作符相混淆的地方使用箭头函数比如> =符号
         'no-confusing-arrow': [
-            'error', 
+            'error',
             {
                 'allowParens': true // 使该规则不那么严格，将括号作为有效防止混淆的语法
             }
@@ -35,7 +35,7 @@ module.exports = {
         // 禁止 new Symbol()操作
         'no-new-symbol': 'error',
         // 禁止使用指定的 import 加载的模块
-        'no-new-symbol': 'off',
+        'no-restricted-imports': 'off',
         // 禁止在子构造函数中，在调用 super() 之前使用 this 或 super
         'no-this-before-super': 'error',
         // 禁止在对象中使用不必要的计算属性
@@ -44,7 +44,7 @@ module.exports = {
         'no-useless-constructor': 'warn',
         // 禁止在 import 和 export 和解构赋值时将引用的变量名重命名为相同的名字
         'no-useless-rename': [
-            'error', 
+            'error',
             {
                 ignoreDestructuring: false,
                 ignoreImport: false,
