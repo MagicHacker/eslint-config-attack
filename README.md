@@ -1,1 +1,1 @@
-# eslint-config-NG
+# eslint-config-Attack
