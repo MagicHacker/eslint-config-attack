@@ -1,6 +1,6 @@
 /**
  * NG ESLint规则
- * https://github.com/MagicHacker/eslint-config-NG
+ * https://github.com/MagicHacker/eslint-config-attack
  * 
  * 依赖版本：
  *     "eslint": "^7.4.0"
