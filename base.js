@@ -4,7 +4,7 @@
  * 
  * 依赖版本：
  *     "eslint": "^7.4.0"
- *      "babel-eslint": "^10.1.0"
+ *     "babel-eslint": "^10.1.0"
  */
 
  module.exports = {
