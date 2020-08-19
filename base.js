@@ -11,7 +11,7 @@
      parser: 'babel-eslint',
      parserOptions: {
          // 指定想要使用的ECMAScript版本
-         ecmaVersion: 2019,
+        ecmaVersion: 2019,
         // ECMAScript modules 模式
         sourceType: 'module',
         // 指定想使用的额外的语言特性
