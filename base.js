@@ -343,10 +343,6 @@ module.exports = {
     /**
      * 与ES6有关的规则
      */
-    // 要求箭头函数体使用大括号
-    "arrow-body-style": ["error", "as-need"],
-    // 要求箭头函数的参数使用圆括号
-    "arrow-parens": ["error", "as-need"],
     // 强制箭头函数的箭头前后使用一致的空格
     "arrow-spacing": [
       "error",
