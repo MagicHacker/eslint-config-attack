@@ -28,6 +28,7 @@
   "homepage": "https://github.com/MagicHacker/eslint-config-attack#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
+    "commitizen": "^4.1.5",
     "eslint": "^7.4.0"
   }
 }
