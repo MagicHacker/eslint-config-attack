@@ -1,5 +1,5 @@
 /**
- * NG ESLint规则
+ * attack ESLint规则
  * https://github.com/MagicHacker/eslint-config-attack
  *
  * 依赖版本：
