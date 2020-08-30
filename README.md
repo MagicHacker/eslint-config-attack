@@ -6,7 +6,7 @@
 
 ## 依赖
 
-​ Node，ESLint，babel-eslint
+​ Node, ESLint, babel-eslint, vue-eslint-parser, eslint-plugin-vue
 
 ## 安装
 
