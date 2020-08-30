@@ -213,7 +213,7 @@ module.exports = {
      */
     "vue/attribute-hyphenation": "off",
     /**
-     * 组件的 name 属性必须符合 PascalCase或者"kebab-case"
+     * 组件的 name 属性必须符合 PascalCase
      */
     "vue/component-definition-name-casing": ["error", "PascalCase"],
     /**
