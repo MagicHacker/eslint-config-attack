@@ -227,10 +227,7 @@ module.exports = {
     /**
      * 组件的 name 属性必须符合 PascalCase或者"kebab-case"
      */
-    "vue/component-definition-name-casing": [
-      "error",
-      "PascalCase" | "kebab-case",
-    ],
+    "vue/component-definition-name-casing": ["error", "PascalCase"],
     /**
      * html标签必须有闭合标签
      */
