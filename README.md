@@ -19,6 +19,8 @@ yarn add eslint-config-attack --dev
 
 ## 快速使用
 
+### 基础规则的使用
+
 ```
 #npm
 npm install eslint babel-eslint eslint-config-attack --save-dev
@@ -43,6 +45,38 @@ module.exports = {
   },
   globals: {
     // 你的全局变量
+  },
+  rules: {
+    // 自定义你的规则
+  },
+};
+```
+
+### Vue 规则的使用
+
+```
+#npm
+npm install --save-dev eslint babel-eslint vue-eslint-parser eslint-plugin-vue eslint-config-attack
+#yarn
+yarn add eslint babel-eslint vue-eslint-parser eslint-plugin-vue eslint-config-attack --dev
+```
+
+​ 在你的项目根目录下创建一个.eslintrc.js 文件，并将以下内容复制进去:
+
+```
+module.exports = {
+  extends: [
+    'attack',
+    'attack/vue',
+  ],
+  env: {
+    // browser: true,
+    // node: true,
+    // mocha: true,
+    // jest: true,
+    // jquery: true
+  },
+  globals: {
   },
   rules: {
     // 自定义你的规则
