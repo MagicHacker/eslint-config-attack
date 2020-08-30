@@ -75,10 +75,6 @@ module.exports = {
      */
     "vue/no-dupe-keys": "error",
     /**
-     * 禁止在一个v-if / v-else-if 链中使用相同的判断条件
-     */
-    "vue/no-dupe-v-else-if": "error",
-    /**
      * 禁止出现重复的属性
      */
     "vue/no-duplicate-attributes": [
@@ -92,10 +88,6 @@ module.exports = {
      * 允许在生命周期钩子中使用异步函数
      */
     "vue/no-lifecycle-after-await": "off",
-    /**
-     * 禁止直接修改props
-     */
-    "vue/no-mutating-props": "error",
     /**
      * 禁止出现语法错误
      */
@@ -188,10 +180,6 @@ module.exports = {
      * v-if 指令必须合法
      */
     "vue/valid-v-if": "error",
-    /**
-     * v-is指令必须合法
-     */
-    "vue/valid-v-is": "error",
     /**
      * v-model 指令必须合法
      */
