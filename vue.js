@@ -231,7 +231,7 @@ module.exports = {
     /**
      * html标签必须有闭合标签
      */
-    "#vue/html-end-tags": "error",
+    "vue/html-end-tags": "error",
     /**
      * 标签属性必须按规则排序
      */
