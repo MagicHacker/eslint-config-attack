@@ -1,5 +1,7 @@
 # [eslint-config-attack](https://github.com/MagicHacker/eslint-config-attack)
 
+English/[简体中文](https://github.com/MagicHacker/eslint-config-attack/blob/master/README.zh-CN.md)
+
 ## Project Description
 
 The attack eslint config is a shareable config for JavaScript/Vue project.
