@@ -1,14 +1,14 @@
 # [eslint-config-attack](https://github.com/MagicHacker/eslint-config-attack)
 
-## Project Description
+## 项目简介
 
-The attack eslint config is a shareable config for JavaScript/Vue project.
+​ attack eslint 规则是一套适用于 JavaScript 项目的可共享的基础的配置规则。
 
-## Dependency
+## 依赖
 
-Node, ESLint, babel-eslint, vue-eslint-parser, eslint-plugin-vue.
+​ Node, ESLint, babel-eslint, vue-eslint-parser, eslint-plugin-vue
 
-## Install
+## 安装
 
 ```
 #npm
@@ -17,9 +17,9 @@ npm install eslint-config-attack --save-dev
 yarn add eslint-config-attack --dev
 ```
 
-## Quick Start
+## 快速使用
 
-### Base Rules Usage
+### 基础规则的使用
 
 ```
 #npm
@@ -28,7 +28,7 @@ npm install eslint babel-eslint eslint-config-attack --save-dev
 yarn add eslint babel-eslint eslint-config-attack --dev
 ```
 
-​ create an .eslintrc.js in the root dictionary of your project,then copy the following content into it:
+​ 在你的项目根目录下创建一个.eslintrc.js 文件，并将以下内容复制进去:
 
 ```
 module.exports = {
@@ -36,6 +36,7 @@ module.exports = {
     'attack',
   ],
   env: {
+    // 你的环境变量（可包含多个全局变量）
     // browser: true,
     // node: true,
     // mocha: true,
@@ -43,13 +44,15 @@ module.exports = {
     // jquery: true
   },
   globals: {
+    // 你的全局变量
   },
   rules: {
-  }
+    // 自定义你的规则
+  },
 };
 ```
 
-### Vue Rules Usage
+### Vue 规则的使用
 
 ```
 #npm
@@ -58,7 +61,7 @@ npm install --save-dev eslint babel-eslint vue-eslint-parser eslint-plugin-vue e
 yarn add eslint babel-eslint vue-eslint-parser eslint-plugin-vue eslint-config-attack --dev
 ```
 
-​ create an .eslintrc.js in the root dictionary of your project,then copy the following content into it:
+​ 在你的项目根目录下创建一个.eslintrc.js 文件，并将以下内容复制进去:
 
 ```
 module.exports = {
@@ -76,7 +79,8 @@ module.exports = {
   globals: {
   },
   rules: {
-  }
+    // 自定义你的规则
+  },
 };
 ```
 
@@ -84,6 +88,6 @@ module.exports = {
 
 [issues](https://github.com/MagicHacker/eslint-config-attack/issues)
 
-## License
+## 许可证协议
 
 [MIT](https://opensource.org/licenses/MIT)
