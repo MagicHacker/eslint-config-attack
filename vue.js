@@ -213,9 +213,9 @@ module.exports = {
      */
     "vue/attribute-hyphenation": "off",
     /**
-     * 组件的 name 属性必须符合 PascalCase
+     * 不限制组件的 name 属性
      */
-    "vue/component-definition-name-casing": ["error", "PascalCase"],
+    "vue/component-definition-name-casing": "off",
     /**
      * html标签必须有闭合标签
      */
@@ -223,7 +223,7 @@ module.exports = {
     /**
      * 标签属性必须按规则排序
      */
-    "vue/attributes-order": "warn",
+    "vue/attributes-order": "off",
     /**
      * 变量名必须是 camelcase 风格的
      */
@@ -248,7 +248,7 @@ module.exports = {
     /**
      * 限制组件的 name 属性的值的风格
      */
-    "vue/name-property-casing": "warn",
+    "vue/name-property-casing": "off",
     /**
      * 禁止给布尔值 props 添加默认值
      */
