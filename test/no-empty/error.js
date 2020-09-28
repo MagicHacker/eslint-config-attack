@@ -1,6 +1,11 @@
 /**
  * 禁止出现空的语句块
- * catch语句中除外
+ * 允许catch语句为空语句块
  */
 const arr = ''
-if (arr) { }
+if (arr) {}
+
+try {
+  //doSomething();
+}
+catch (ex) {}
