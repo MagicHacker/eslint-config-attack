@@ -1,3 +1,43 @@
+## [1.1.6](https://github.com/MagicHacker/eslint-config-attack/compare/v1.0.1...v1.1.6) (2020-09-28)
+
+
+### Bug Fixes
+
+* **global:** fix npmignore未生效 ([789cde7](https://github.com/MagicHacker/eslint-config-attack/commit/789cde7d276760e8ea759289f4552fd705aad299))
+* **global:** vue规则拼写错误 ([91bd054](https://github.com/MagicHacker/eslint-config-attack/commit/91bd0547e034ff9b1a2273bbf57dc8e2d25b288a))
+* **global:** 修改vue中报错的规则 ([cc8b34c](https://github.com/MagicHacker/eslint-config-attack/commit/cc8b34c386c899bbcd02ec16493cff1a108f6c8e))
+* **global:** 删除有冲突的规则 ([2f6d008](https://github.com/MagicHacker/eslint-config-attack/commit/2f6d008cc1fbb9b877e71cc95c12ef0f1fc1d86a))
+* **package.json:** 修改changelog命令 ([5e934aa](https://github.com/MagicHacker/eslint-config-attack/commit/5e934aacfe2fd6ac71ac3437712bec3087778e38))
+
+
+### Features
+
+* npm忽略github文件夹 ([12b09cd](https://github.com/MagicHacker/eslint-config-attack/commit/12b09cdab471331f2642b8f0f7f7dc87772122ac))
+* 修改vue规则的注释 ([ef9ead0](https://github.com/MagicHacker/eslint-config-attack/commit/ef9ead0f0a2d36088f01121060b13eb6469e480f))
+* 增加issues模板文件 ([3d0e8c0](https://github.com/MagicHacker/eslint-config-attack/commit/3d0e8c0ac886d96fa5cd7808dc93a4548cf357e7))
+* 将yarn.lock添加进.gitignore ([9a4fd5f](https://github.com/MagicHacker/eslint-config-attack/commit/9a4fd5f0070c0b12083c17f7620960fe3a33cb85))
+* **global:** 配置husky钩子 ([4d105cd](https://github.com/MagicHacker/eslint-config-attack/commit/4d105cdb69bcfd85c872b641c6c64a9169c32144))
+* 测试用例：getter必须有返回值 ([ac84154](https://github.com/MagicHacker/eslint-config-attack/commit/ac84154d465c26c29737298dbb806d2728f14d36))
+* **global:** 修改changelog指令 ([7b331df](https://github.com/MagicHacker/eslint-config-attack/commit/7b331df918c6799d6254e6781f4f59472ddddaf6))
+* **global:** 引入@commitlint/config-conventional和@commitlint/cli库 ([0c4b093](https://github.com/MagicHacker/eslint-config-attack/commit/0c4b093e5bed757efcec028b38fcfeef1c22b121))
+* **global:** 引入cz-conventional-changelog库 ([9a2c2e6](https://github.com/MagicHacker/eslint-config-attack/commit/9a2c2e626d4ffb507859a65f45d45f3fd20e90f3))
+* **global:** 引入与Vue相关的库 ([f45e440](https://github.com/MagicHacker/eslint-config-attack/commit/f45e440784f631e4014af49d96b655f431c42bec))
+* **global:** 构建vue的eslint规则 ([c77e327](https://github.com/MagicHacker/eslint-config-attack/commit/c77e327cd34debe1ea7987dec79b0d129382d52e))
+* **global:** 添加changelog脚本 ([fa4f995](https://github.com/MagicHacker/eslint-config-attack/commit/fa4f995920b28ecd73cf6085d026cacc36f0d09a))
+* **global:** 添加commitlint配置文件 ([9f416d3](https://github.com/MagicHacker/eslint-config-attack/commit/9f416d334fcceb16e9f35fde77f45119342f54c6))
+* **npmignore:** npmignore添加目录 ([58d5d9a](https://github.com/MagicHacker/eslint-config-attack/commit/58d5d9a6436e1f5f7175681d991a79bfe6a01141))
+* **test:** 新增和修改基础规则的测试用例 ([9964f60](https://github.com/MagicHacker/eslint-config-attack/commit/9964f6027ad7bae7d4a6c62ad8f87ea3d51f61a1))
+* 编写测试用例 ([15db154](https://github.com/MagicHacker/eslint-config-attack/commit/15db154b73e75adbb61cb7b7cf97a0c577d87ba5))
+* 编写测试用例 ([085575c](https://github.com/MagicHacker/eslint-config-attack/commit/085575c229d58ed85112aeb6adebaae11e6ca836))
+* 编写测试用例 ([bd331fb](https://github.com/MagicHacker/eslint-config-attack/commit/bd331fbd0d6960b02efd255bff431af3384cd80f))
+* 编写规则的测试用例 ([88b26f3](https://github.com/MagicHacker/eslint-config-attack/commit/88b26f361bd0dc35135e8626b443117b7d1942b4))
+* **test:** 编写测试用例 ([12cb693](https://github.com/MagicHacker/eslint-config-attack/commit/12cb693314fb1ecf03e654c16db17c32bb57fe3f))
+* **test:** 编写测试用例 ([86ac8f5](https://github.com/MagicHacker/eslint-config-attack/commit/86ac8f5dd39bd9f7175dfff25e69acf60a967ae8))
+* **test:** 编写测试用例 ([2b22517](https://github.com/MagicHacker/eslint-config-attack/commit/2b22517a3742e9d8cbbf0dd0bd60e956977d14df))
+* **vue.js:** 关闭组件名和属性顺序的规则 ([ebf388d](https://github.com/MagicHacker/eslint-config-attack/commit/ebf388de15f7ed5a573a60f641c31270849257cf))
+
+
+
 ## [1.1.2](https://github.com/MagicHacker/eslint-config-attack/compare/v1.1.1...v1.1.2) (2020-08-30)
 
 ### Bug Fixes
