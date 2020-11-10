@@ -4,7 +4,7 @@
  *
  *
  * 依赖版本：
- *   eslint ^7.11.0
+ *   eslint ^7.4.0
  *   babel-eslint ^10.1.0
  *   eslint-plugin-react ^7.21.4
  *
