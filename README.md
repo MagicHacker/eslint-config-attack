@@ -81,6 +81,36 @@ module.exports = {
   }
 };
 ```
+### React Rules Usage
+
+``` javascript
+#npm
+npm install --save-dev eslint babel-eslint  eslint-plugin-react eslint-config-attack
+#yarn
+yarn add eslint babel-eslint  eslint-plugin-react eslint-config-attack --dev
+```
+
+​ create an .eslintrc.js in the root dictionary of your project,then copy the following content into it:
+
+``` javascript
+module.exports = {
+  extends: [
+    'attack',
+    'attack/react',
+  ],
+  env: {
+    // browser: true,
+    // node: true,
+    // mocha: true,
+    // jest: true,
+    // jquery: true
+  },
+  globals: {
+  },
+  rules: {
+  }
+};
+```
 
 ## Issues
 
