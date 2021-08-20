@@ -47,7 +47,6 @@ module.exports = {
     "react/destructuring-assignment": "off",
     /**
      * 组件必须有 displayName 属性
-     * @reason 不强制要求写 displayName
      */
     "react/display-name": "off",
     /**
@@ -64,17 +63,10 @@ module.exports = {
     "react/forbid-elements": "off",
     /**
      * 禁止使用另一个组件的 propTypes
-     * @reason 类型相关的约束交给 TypeScript
      */
     "react/forbid-foreign-prop-types": "error",
     /**
-     * 禁止使用 PropTypes.any PropTypes.array 和 PropTypes.object
-     * @reason 类型相关的约束交给 TypeScript
-     */
-    "react/forbid-prop-types": ["error", { forbid: ["any"] }],
-    /**
      * 限制函数式组件的函数形式（函数声明、函数表达式或箭头函数）
-     * @reason 一些场景还不能覆盖，如 export default function，自动修复功能在 ts 中有些问题
      */
     "react/function-component-definition": "off",
     /**
@@ -89,11 +81,6 @@ module.exports = {
      * 限制文件后缀
      */
     "react/jsx-filename-extension": "off",
-    /**
-     * 必须使用 <></> 而不是 React.Fragment
-     * @reason <></> 不需要额外引入 Fragment 组件
-     */
-    "react/jsx-fragments": ["error", "syntax"],
     /**
      * handler 的名称必须是 onXXX 或 handleXXX
      */
@@ -129,7 +116,6 @@ module.exports = {
     "react/jsx-no-literals": "off",
     /**
      * 禁止出现 href="javascript:void(0)"
-     * @reason React 已经有 warning 了，并且会在将来禁止此类属性值
      */
     "react/jsx-no-script-url": "error",
     /**
@@ -174,7 +160,6 @@ module.exports = {
     "react/no-access-state-in-setstate": "off",
     /**
      * 两个 inline 元素之间必须有空格，否则视觉上它们就贴在一起了
-     * @reason 这是样式的问题，不应该由空格约束
      */
     "react/no-adjacent-inline-elements": "off",
     /**
@@ -199,7 +184,6 @@ module.exports = {
     "react/no-deprecated": "error",
     /**
      * 禁止在 componentDidMount 里使用 setState
-     * @reason 同构应用需要在 didMount 里使用 setState
      */
     "react/no-did-mount-set-state": "error",
     /**
@@ -216,12 +200,10 @@ module.exports = {
     "react/no-find-dom-node": "error",
     /**
      * 禁止使用 isMounted
-     * @reason 它是已废弃的语法
      */
     "react/no-is-mounted": "error",
     /**
      * 禁止在一个文件创建两个组件
-     * @reason 有一个 bug：https://github.com/yannickcr/eslint-plugin-react/issues/1181
      */
     "react/no-multi-comp": "off",
     /**
@@ -257,29 +239,17 @@ module.exports = {
      */
     "react/no-unknown-property": "error",
     /**
-     * 禁止使用不安全的生命周期方法 componentWillMount, componentWillReceiveProps, componentWillUpdate
-     */
-    "react/no-unsafe": [
-      "error",
-      {
-        checkAliases: true,
-      },
-    ],
-    /**
      * 禁止出现未使用的 propTypes
-     * @reason 类型相关的约束交给 TypeScript
      */
     "react/no-unused-prop-types": "error",
     /**
      * 已定义的 state 必须使用
-     * @reason 没有官方文档，并且存在很多 bug：https://github.com/yannickcr/eslint-plugin-react/search?q=no-unused-state&type=Issues&utf8=%E2%9C%93
      */
     "react/no-unused-state": "off",
     /**
      * 禁止在 componentWillUpdate 中使用 setState
-     * @reason 已经禁止使用 componentWillUpdate 了
      */
-    "react/no-will-update-set-state": "off",
+    "react/no-will-update-set-state": "error",
     /**
      * 必须使用 Class 的形式创建组件
      */
@@ -293,20 +263,9 @@ module.exports = {
      */
     "react/prefer-stateless-function": "off",
     /**
-     * 组件必须写 propTypes
-     * @reason 类型相关的约束交给 TypeScript
-     */
-    "react/prop-types": "error",
-    /**
      * 出现 jsx 的地方必须导入 React
-     * @reason 已经在 no-undef 中限制了
      */
     "react/react-in-jsx-scope": "off",
-    /**
-     * 非 required 的 prop 必须有 defaultProps
-     * @reason 类型相关的约束交给 TypeScript
-     */
-    "react/require-default-props": "error",
     /**
      * 组件必须有 shouldComponentUpdate
      */
@@ -325,7 +284,6 @@ module.exports = {
     "react/sort-comp": "error",
     /**
      * propTypes 的属性必须按照字母排序
-     * @reason 类型相关的约束交给 TypeScript
      */
     "react/sort-prop-types": "off",
     /**
